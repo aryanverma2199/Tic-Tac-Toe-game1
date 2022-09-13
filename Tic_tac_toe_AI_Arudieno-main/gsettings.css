@@ -1,0 +1,96 @@
+
+html{
+    background-image: url("nasa-galaxy_9pu4.jpg");
+       background-repeat: no-repeat;
+       
+
+}
+    #gsettings {
+font-family: monospace;
+color: brown;
+border: 5px solid yellow;
+border-radius: 10px;
+font-size: 32px;
+font-weight: bolder;
+
+
+    }    
+
+
+                
+
+.glow2 {
+   
+    color: rgb(126, 228, 10);
+    text-align: center;
+    -webkit-animation: glow2 1s ease-in-out infinite alternate;
+    -moz-animation: glow2 1s ease-in-out infinite alternate;
+    animation: glow2 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow2 {
+    from {
+      text-shadow: 0 0 6px rgb(14, 91, 192), 0 0 20px rgb(25, 22, 196), 0 0 30px #9fa590, 0 0 40px #0c0c0c, 0 0 50px #d6da12, 0 0 60px #ade418, 0 0 70px #f3f70f;
+    }
+    to {
+      text-shadow: 0 0 10px rgb(27, 21, 21), 0 0 30px #ffb84d, 0 0 40px #ee3f0a, 0 0 50px #f0550d, 0 0 60px #a71753, 0 0 70px #3f1547, 0 0 80px #f75409;
+    }
+  }
+
+
+  #list {
+color: rgb(218, 60, 233);
+font-family: monospace;
+font-size: 20px;
+
+  }
+
+
+/* our volume slidere here */
+
+
+input#volumeslider{
+	width: 170px;
+}
+input[type='range'] {
+    -webkit-appearance: none !important;
+	margin:0px;
+	padding:0px;
+    background: rgb(230, 36, 36);
+    height:13px;
+	border-bottom:#333 1px solid;
+}
+input[type='range']::-ms-fill-lower  {
+	background:#000;
+}
+input[type='range']::-ms-fill-upper  {
+	background:#000;
+}
+input[type='range']::-moz-range-track {
+	border:none;
+    background: #000;
+}
+input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    background: radial-gradient(#FFF, #333);
+    height:11px;
+    width:11px;
+	border-radius:100%;
+	cursor:pointer;
+}
+input[type='range']::-moz-range-thumb {
+    background: radial-gradient(#FFF, #333);
+    height:11px;
+    width:11px;
+	border-radius:100%;
+	cursor:pointer;
+}
+input[type='range']::-ms-thumb {
+    -webkit-appearance: none !important;
+    background: radial-gradient(#FFF, #333);
+    height:11px;
+    width:11px;
+	border-radius:100%;
+	cursor:pointer;
+}
+

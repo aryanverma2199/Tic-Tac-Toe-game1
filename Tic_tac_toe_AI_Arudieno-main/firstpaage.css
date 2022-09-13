@@ -1,0 +1,81 @@
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   /* * {
+    
+    background-image: url("nasa-galaxy_9pu4.jpg");
+    background-repeat: no-repeat;
+}    
+h1 {
+    color: rgb(129, 141, 24);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px 190px;
+}
+
+
+button {
+margin-top: 25px; 
+width: 300px;
+height: 150px;
+font-size: 20px;
+font-weight: bold;
+font-family: cursive;
+background-color: limegreen;
+color: gold;
+border: 1px solid black; 
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.7);
+border-radius: 3px;
+margin-top: 25%;
+
+}
+
+button:hover {
+background: rgb(15, 161, 219);
+}
+
+.para {
+margin-left: 11%;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+background-color: brown;
+}
+
+
+body {
+
+font-family: cursive;
+}
+
+.glow {
+font-size: 80px;
+color: #fff;
+text-align: center;
+-webkit-animation: glow 1s ease-in-out infinite alternate;
+-moz-animation: glow 1s ease-in-out infinite alternate;
+animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+from {
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+}
+
+to {
+text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+}
+}
+
+#gfg {
+font-family:cursive ;
+}
+
+
+*/
+

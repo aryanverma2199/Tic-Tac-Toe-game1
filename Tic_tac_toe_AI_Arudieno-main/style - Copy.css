@@ -1,0 +1,364 @@
+* {
+    padding: 0;
+    margin: 0;
+   
+}
+
+ html { 
+background-image: url("nasa-galaxy_9pu4.jpg");
+    background-repeat: no-repeat; 
+   
+    
+ }
+
+header{
+    text-align: center;
+    margin: 50px;
+	padding: 0; 
+}
+
+h1#head { 
+    font-size: 50px;
+    font-family: Cursive;
+    color: cornflowerblue;  
+}
+
+h1#result {
+    font-size: 30px;
+    font-family: Verdana;
+    color: chocolate;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+canvas {
+  
+    border: 3px solid rgb(6, 52, 136); 
+    background-color: rgb(214, 214, 20);
+    text-align: center;
+	/* Added to join the canvases after we created the red strike throughts */
+	display: block;
+    
+	float: left;
+}
+
+#game {
+    position: relative;
+    width: 650px; 
+    height: 322px;
+    margin: 0 auto;
+}
+
+#tic {
+    position: relative;
+    margin: 0 auto;
+    width: 318px;
+    height: 318px;
+    display: inline-block;
+    float: left;
+	border: 3px solid rgb(168, 180, 182); 
+    border-radius: 12px;
+    opacity: 0.7; 
+   
+}
+
+#rules {
+    position: relative;
+    width: 318px;
+    height: 318px;
+    text-align: center;
+    display: inline-block;
+    
+}
+
+p {
+    font-size: 26px;
+    margin: 15px;
+    color: brown;
+}
+
+h2 {
+    font-size: 35px;
+    color: brown;
+}
+
+button {
+    margin-top: 25px; 
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    background-color: rgb(135, 53, 230);
+    color: rgb(20, 235, 224);
+    border: 1px solid rgb(238, 56, 10); 
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.7);
+	border-radius: 3px;
+    transition: transform .2s;
+}
+
+canvas:hover {
+    background-color: lightblue;
+}
+
+button:hover {
+    background: green;
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+  
+h1 {
+color: rgb(129, 141, 24);
+font-family: 'Times New Roman', Times, serif;
+margin: 0px 190px;
+}
+
+
+
+.para {
+margin-left: 11%;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+background-color: brown;
+}
+
+
+body {
+
+font-family: cursive;
+font-family: sans-serif;    /* ye navbar banatey samay likha hai */
+}
+
+.glow {
+
+color: #fff;
+text-align: center;
+-webkit-animation: glow 1s ease-in-out infinite alternate;
+-moz-animation: glow 1s ease-in-out infinite alternate;
+animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+from {
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+}
+
+to {
+text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+}
+}
+
+#gfg {
+font-family:cursive ;
+font-size: 40px;
+margin-top: 100px;
+margin-bottom: 100px;
+margin-right: 150px;
+margin-left: 180px;
+transition: all .2s ease-in-out; 
+
+
+}
+
+#gfg:hover { transform: scale(1.1); }                               
+
+
+
+
+
+            
+
+.glow2 {
+   
+    color: rgb(126, 228, 10);
+    text-align: center;
+    -webkit-animation: glow2 1s ease-in-out infinite alternate;
+    -moz-animation: glow2 1s ease-in-out infinite alternate;
+    animation: glow2 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow2 {
+    from {
+      text-shadow: 0 0 6px rgb(14, 91, 192), 0 0 20px rgb(25, 22, 196), 0 0 30px #0b33b8, 0 0 40px #118ef5, 0 0 50px #d6da12, 0 0 60px #ade418, 0 0 70px #f3f70f;
+    }
+    to {
+      text-shadow: 0 0 10px rgb(27, 21, 21), 0 0 30px #ffb84d, 0 0 40px #ee3f0a, 0 0 50px #f0550d, 0 0 60px #db3309, 0 0 70px #11b2f1, 0 0 80px #f75409;
+    }
+  }
+    
+
+
+ #bkimg { 
+    background-image: url("nasa-galaxy_9pu4.jpg");
+       background-repeat: no-repeat;
+        }
+
+
+.new {
+    margin-top: 25px; 
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    background-color: rgb(181, 223, 29, 0.6);
+    color: rgb(253, 85, 7);
+    border: 1px solid rgb(238, 56, 10); 
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.7);
+	border-radius: 3px;
+    transition: transform .2s;
+}
+.new:hover {
+transform: scale(1.2);
+}
+
+#stronghai {
+
+    background-color: blue;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+/* game settings button below */
+
+.gset {
+    margin-top: 125px; 
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    background-color: rgb(135, 53, 230);
+    color: rgb(20, 235, 224);
+    border: 1px solid rgb(238, 56, 10); 
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.7);
+	border-radius: 3px;
+    transition: transform .2s;
+
+}
+
+.gset:hover {
+    background: green;
+    transform: scale(1.2);
+}
+
+nav {
+    height: 10vh;
+    background:#f08229;
+    opacity: 0.7;
+}
+
+.nav-links {
+            
+    display: flex;
+    list-style: none;
+    width: 50%;
+    background: lightcoral;
+    height: 100%;
+    justify-content: space-around;
+    align-items:center;
+    margin-left: auto;
+
+}
+.nav-links li a{
+
+    color: white ;
+    text-decoration: none;
+    font-size: 16px;
+
+}  
+
+
+.landing {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+@media screen and(max-width: 768px){ 
+    .line{
+        width: 30px;
+        height: 3px;
+        background: white;
+        margin: 5px;
+    }
+    nav {
+        position: relative;
+    }
+
+    .hamburger{
+
+        position:sticky;
+        cursor: pointer;
+        right: 5%;
+        top: 50%;
+        transform: translate(-5%,-50%);
+        z-index: 2;
+    }
+     .nav-links {
+         position:fixed;
+         background: #5b78c7;
+         height: 100vh;
+         width: 100%;
+         flex-direction: column;
+         clip-path: circle(100px at 90% -10%);
+         -webkit-clip-path: circle(100px at 90% -10%);
+         transition: all 1s ease-out;
+         pointer-events: none;
+     }
+
+     .nav-links.open{
+
+         clip-path: circle(1000px at 90% -10%);
+        -webkit-clip-path: circle(1000px at 90% -10%);
+       
+     }
+
+     .landing{
+     flex-direction: column;
+     }
+
+     .nav-links li{
+         opacity: 0;
+     }
+     .nav-links li a {
+         font: size 25px;
+     }
+     .nav-links list-style:nth-child(1){
+         transition: all 0.5s ease 0.2s;
+
+     }
+     .nav-links list-style:nth-child(2){
+        transition: all 0.5s ease 0.4s;
+         
+    }
+    .nav-links list-style:nth-child(3){
+        transition: all 0.5s ease 0.6s;
+         
+    }
+    li.fade {
+        opacity: 1;
+    }
+    }
+}
+
+
+
+
+
+ 
